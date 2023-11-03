@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: rgba(0, 0, 0, 0);
+}
+.name {
+  margin: 1% 2%;
+  padding: 0% 8%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  color: aquamarine;
+}
+.name a {
+  text-decoration: none;
+  color: aquamarine;
+}
+.name i {
+  font-size: 1.3rem;
+  padding-right: 0.6rem;
+}
+.main {
+  display: flex;
+  margin: 2% 2%;
+  padding: 2% 2%;
+}
+.logo {
+  color: aquamarine;
+  font-size: 35px;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  padding-top: 10%;
+  padding-left: 2%;
+}
+
+.about {
+  display: flex;
+}
+
+.goal {
+  width: 45%;
+  height: auto;
+  background: #f1c7ff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1% 2%;
+  margin: 1% 1%;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+}
+.goal h4 {
+  padding-left: 1%;
+}
+.about-text {
+  height: auto;
+  width: 45%;
+  background: #f1c7ff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1% 2%;
+  margin: 1% 1%;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+}
+.college1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.college2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  font-size: 1.02rem;
+}
+.college a {
+  text-decoration: none;
+  color: #000;
+}
+.college a:hover {
+  color: rgb(13, 36, 151);
+}
+
+.title {
+  height: auto;
+  color: white;
+}
+.title h1 {
+  padding-left: 1%;
+}
+.title h4 {
+  padding-left: 2%;
+}
+
+.title:hover {
+  color: aquamarine;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+}
+.box,
+.card {
+  color: #ceeef1;
+  text-decoration: none;
+}
+
+.card {
+  height: auto;
+  width: 335px;
+  padding: 20px 35px;
+  background: #9b40f6;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.button {
+  background-color: #0c9cdf;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #0c9cdf;
+  cursor: pointer;
+}
+.recent {
+  display: flex;
+  font-weight: 600;
+}
+.recent i {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-right: 4%;
+}
+button {
+  background-color: #0c7fb4;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: black;
+  border: 2px solid #0c9cdf;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-me {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background: #f1c7ff;
+  margin: 0.5% 2%;
+  padding: 1% 4%;
+  border: 2px solid white;
+  border-radius: 1.2rem;
+  text-decoration: none;
+}
+
+.contact-me i {
+  padding-right: 3%;
+}
+.contact-me a {
+  text-decoration: none;
+  color: #000;
+}
+.button-two {
+  background-color: #0c7fb4;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  margin: 0.5% 2%;
+  padding: 8px 20px;
+  border-radius: 1.5rem;
+  transition: 0.4s;
+}
+.button-two:hover {
+  background-color: black;
+  border: 2px solid #0c9cdf;
+  cursor: pointer;
+}
+footer {
+  padding: 0.8% 0.8%;
+  background-color: #9b40f6;
+  color: white;
+  text-align: center;
+}
